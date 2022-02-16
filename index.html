@@ -20,7 +20,7 @@
         <a class="navigation-logo" href="#"></a>
         <nav class="navigation">
             <ul class="navigation-list">
-                <li class="navigation-list-item"><a class="navigation-list-item-link" href="#">Agencja</a></li>
+                <li class="navigation-list-item"><a class="navigation-list-item-link underline" href="#">Agencja</a></li>
                 <li class="navigation-list-item"><a class="navigation-list-item-link" href="./portfolio.html">Portfolio</a></li>
                 <li class="navigation-list-item"><a class="navigation-list-item-link" href="#">Kontakt</a></li>
             </ul>
@@ -46,7 +46,7 @@
         <div class="cointaner">
         <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <div class="buttonplacement">
-        <button class="buttonorder" type="button">Zamów usługe</button>
+        <button class="buttonorder" type="button" data-modal-open>Zamów usługe</button>
         </div>
         </div>
 
@@ -69,11 +69,23 @@
         <h2 class="h2">Czym się zajmujemy</h2>
         <ul class="images2-list">
             <li class="images2-list-item"><img src="./images/mainsection2/section2left.jpg" alt="someone writing on keyboard"
-                    width="370" height="294"></li>
+                    width="370" height="294">
+                <div class="application">
+                    <p class="applicationp">Aplikacje komputerowe</p>
+                </div>
+            </li>
             <li class="images2-list-item"><img src="./images/mainsection2/section2middle.jpg" alt="someone uses phone"
-                    width="370" height="294"></li>
+                    width="370" height="294">
+                <div class="application">
+                    <p class="applicationp">Aplikacje mobilne</p>
+                </div>
+            </li>
             <li class="images2-list-item"><img src="./images/mainsection2/section2right.jpg" alt="someone uses tablet "
-                    width="370" height="294"></li>
+                    width="370" height="294">
+                <div class="application">
+                    <p class="applicationp">Rozwiązania graficzne</p>
+                </div>
+            </li>
         </ul>
         </div>
 
@@ -342,6 +354,14 @@
         </div>
 
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close><svg class="xbotton"><use href="./images/icons2.svg#icon-x"></use></svg></button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
