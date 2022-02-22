@@ -497,12 +497,14 @@ color: #FFFFFF;
   margin-top: 94px;
 }
 
-.portfoliobutton-list-item:not(:last-child) {
-  margin-right: 8px;
+
+
+
+.portfoliobutton-list-item {
+  margin-left: 8px;
 }
 
 .portfoliobutton-list-item-button {
-  width: 121px;
   height: 38px;
   font-weight: 500;
   font-size: 16px;
@@ -510,9 +512,13 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: none;
+  border-radius: 4px;
   transition: all 250ms linear;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-  /*color: #FFFFFF;*/
+  
 }
 
 
@@ -545,6 +551,7 @@ color: #FFFFFF;
   line-height: 1.875;
   letter-spacing: 0.03em;
   margin-left: 24px;
+  margin-bottom: 20px;
 }
 
 /*   END PORTFOLIO SECTION 1    */
@@ -695,10 +702,14 @@ color: #FFFFFF;
 }
 
 
+.portfoliopictures-list-item {
+  margin-bottom: 30px;
+}
+
+
 .hoverlist {
   width: 100%;
   height: 294px;
-  z-index: 22;
   top: 0;
   left: 0;
   position: absolute;
@@ -772,6 +783,7 @@ z-index: 5;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   position: absolute;
+  cursor: pointer;
   right: 8px;
   top: 8px;
 
